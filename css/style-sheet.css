@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  border-radius: 2px solid #ffffff;
+  display: flex;
+  justify-content: center;
+}
+.topnav {
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ffffff;
+  color: #04e0fa;
+}
+.topnav a.active {
+  background-color: #04e0fa;
+  color: #5b1ee1;
+}
+
+.gradient {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn,
+.taxProject {
+  background-color: #04e0fa;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 50%;
+}
+
+.btn:hover {
+  background-color: yellow;
+}
+.taxProject:hover {
+  background-color: mediumseagreen;
+}
