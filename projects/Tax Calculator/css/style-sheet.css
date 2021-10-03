@@ -1,8 +1,5 @@
 body {
   background-color: whitesmoke;
-  display: block;
-  justify-content: center;
-  align-items: center;
 }
 input[type="text"] {
   width: 250px;
