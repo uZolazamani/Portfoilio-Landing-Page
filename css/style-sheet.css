@@ -57,3 +57,6 @@
 .taxProject:hover {
   background-color: mediumseagreen;
 }
+.mainTitle {
+  display: flex;
+}
